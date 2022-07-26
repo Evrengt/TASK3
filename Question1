@@ -1,4 +1,4 @@
-/* 1- Return all employees who earns the highest salary in each department. (Hint: use analytic functions) */
+1- Return all employees who earns the highest salary in each department. (Hint: use analytic functions)
 
 WITH max_salary_each_department AS 
     (SELECT MAX(salary) AS max_salary, department_id 
