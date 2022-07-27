@@ -7,10 +7,10 @@ CREATE FUNCTION STR_REVERSE (LEN IN NUMBER, WORDS IN VARCHAR2)
 
     BEGIN
         FOR x IN 1 .. LEN LOOP
-            s := s || SUBSTR(WORDS, x*-1, 1);
+            s := s || SUBSTR(WORDS, x-1, 1);
         END LOOP;
         
-        RETURN s;
+        RETURN;
     END; 
 
 
