@@ -1,4 +1,4 @@
-/* 2- Return number of employees registered for each location. */
+ 2- Return number of employees registered for each location. 
 
 WITH EMP_COUNT AS
     (SELECT EMP.LOCATION_ID, COUNT(EMP.EMPLOYEE_ID) EMPLOYEE_COUNT
