@@ -1,4 +1,4 @@
-/* 3- some departments don't have any registered employee record. Return 5th letter of those department names. */
+ 3- some departments don't have any registered employee record. Return 5th letter of those department names. 
 
 SELECT DEPARTMENT_ID, DEPARTMENT_NAME, SUBSTR(DEPARTMENT_NAME, 5, 1) FIFTH_LETTER
 FROM HR_DEPARTMENTS
