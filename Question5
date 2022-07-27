@@ -1,5 +1,4 @@
-/* 5- Return reverse of those department names. (For example => input='Benefits', output = 'stifeneB'). */
-
+5- Return reverse of those department names. (For example => input='Benefits', output = 'stifeneB'). 
 CREATE FUNCTION STR_REVERSE (LEN IN NUMBER, WORDS IN VARCHAR2)
     RETURN VARCHAR2 
     IS 
