@@ -1,4 +1,4 @@
-/* 4- Return the string between 1st letter from the end and 3th letter from the end. (For example => input='Benefits', output = 'sti'). */
+ 4- Return the string between 1st letter from the end and 3th letter from the end. (For example => input='Benefits', output = 'sti'). 
 
 CREATE FUNCTION STR_REVERSE (LEN IN NUMBER, WORDS IN VARCHAR2)
     RETURN VARCHAR2 
